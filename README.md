@@ -17,11 +17,10 @@ Before you can use this application, you need to have the following installed on
   `cd SpringEmployeeCRUD`
   
 3. Update the database credentials in the `application.properties' file to fit your own database:
-  spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
-  
-  spring.datasource.username=<your_username>
-  
-  spring.datasource.password=<your_password>
+    - `spring.datasource.url=jdbc:mysql://localhost:3306/employee_db`
+    - `spring.datasource.username=<your_username>`
+    - `spring.datasource.password=<your_password>`
+
   
 4. Build the project using Maven:
   `mvn clean install`
