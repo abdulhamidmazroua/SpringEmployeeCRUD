@@ -21,14 +21,15 @@ Before you can use this application, you need to have the following installed on
     - `spring.datasource.username=<your_username>`
     - `spring.datasource.password=<your_password>`
 
+4. Go to your MySQL and execute the `employee-sql-script.sql`
   
-4. Build the project using Maven:
+5. Build the project using Maven:
   `mvn clean install`
-  
-5. Run the application using the following command:
+ 
+6. Run the application using the following command:
   `java -jar target/SpringEmployeeCRUD-0.0.1-SNAPSHOT.jar`
 
-6. Open your web browser and navigate to `http://localhost:8080` to access the application.
+7. Open your web browser and navigate to `http://localhost:8080` to access the application.
 
 ## Usage
 
